@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Luke & Chevonne's Wedding - A reflection of love. Join us on December 28th, 2024 at Pearl Mountain.">
+    <title>Luke & Chevonne's Wedding</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Arial, sans-serif';
+            margin: 0;
+            padding: 0;
+            background-color: #f8f5f2;
+            color: #333;
+        }
+
+        header {
+            background: linear-gradient(135deg, #d1b894, #e0c3a5, #f5e7d2);
+            color: #fff;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin: 0;
+            font-weight: 700;
+        }
+
+        header h2 {
+            font-size: 1.5rem;
+            font-weight: 300;
+        }
+
+        .content {
+            padding: 50px;
+            text-align: center;
+        }
+
+        .content h3 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        .countdown {
+            font-size: 2rem;
+            margin: 20px 0;
+            color: #c5a880;
+        }
+
+        .qr-code-section {
+            margin: 40px 0;
+        }
+
+        .qr-code-section img {
+            width: 200px;
+            height: 200px;
+        }
+
+        .venue {
+            font-size: 1.8rem;
+            margin: 20px 0;
+        }
+
+        .venue strong {
+            color: #b49a76;
+        }
+
+        footer {
+            background-color: #d1b894;
+            padding: 20px;
+            text-align: center;
+            color: #fff;
+        }
+
+        /* 3D Button */
+        .button-3d {
+            margin: 20px 0;
+            padding: 15px 30px;
+            font-size: 1.2rem;
+            color: #fff;
+            background: linear-gradient(145deg, #d1b894, #b49a76);
+            border: none;
+            border-radius: 5px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+            transition: all 0.3s ease-in-out;
+        }
+
+        .button-3d:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.4);
+        }
+
+        /* For 3D effect on images */
+        .image-3d {
+            width: 100%;
+            max-width: 600px;
+            margin: 30px auto;
+            transform: perspective(800px) rotateY(20deg);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+            transition: transform 0.5s ease;
+        }
+
+        .image-3d:hover {
+            transform: perspective(800px) rotateY(0deg);
+        }
+
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Luke & Chevonne</h1>
+    <h2>We're getting married on December 28th, 2024!</h2>
+</header>
+
+<div class="content">
+    <h3>Welcome to our wedding website!</h3>
+    <p>A reflection of our love and the start of a beautiful journey.</p>
+
+    <!-- Countdown (add JS later for functionality) -->
+    <div class="countdown">Counting down to December 28, 2024</div>
+
+    <!-- 3D Image -->
+    <img class="image-3d" src="your-3d-wedding-photo.jpg" alt="Wedding Photo">
+
+    <!-- Venue Information -->
+    <div class="venue">
+        <p>Venue: <strong>Pearl Mountain</strong></p>
+        <p>Address: Your Venue Address</p>
+    </div>
+
+    <!-- QR Code Section -->
+    <div class="qr-code-section">
+        <p>Scan the QR code below for directions:</p>
+        <img src="your-qr-code.png" alt="QR Code">
+    </div>
+
+    <!-- RSVP Button (3D Style) -->
+    <a href="your-rsvp-link.com" class="button-3d">RSVP Here</a>
+</div>
+
+<footer>
+    <p>Thank you for celebrating with us! &copy; 2024 Luke & Chevonne</p>
+</footer>
+
+</body>
+</html>
